@@ -1,0 +1,27 @@
+{
+  "name": "medium-article-api",
+  "version": "1.0.0",
+  "description": "NPM package for using medium articles api",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhammad-usman-108/medium-article-api.git"
+  },
+  "keywords": [
+    "medium-articles",
+    "articles-api",
+    "articles",
+    "apis",
+    "medium",
+    "blogs-api"
+  ],
+  "author": "muhammad-usman-108 misbahafzal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muhammad-usman-108/medium-article-api/issues"
+  },
+  "homepage": "https://github.com/muhammad-usman-108/medium-article-api#readme"
+}
