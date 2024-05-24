@@ -2,7 +2,7 @@
   "name": "medium-article-api",
   "version": "1.0.0",
   "description": "NPM package for using medium articles api",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "test": "npm run build && node dist/test.js"
