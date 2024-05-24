@@ -1,6 +1,6 @@
 # Medium Article APIs
 
-[![npm version](https://badge.fury.io/js/my-typescript-package.svg)](https://badge.fury.io/js/my-typescript-package)
+[![npm version](https://badge.fury.io/js/medium-article-api.svg)](https://badge.fury.io/js/medium-article-api)
 
 NPM package for Medium Articles APIs.
 
