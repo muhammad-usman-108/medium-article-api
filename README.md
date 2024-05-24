@@ -71,7 +71,6 @@ This package uses a `tsconfig.json` file for TypeScript configuration. Here is a
     "forceConsistentCasingInFileNames": true,
     "outDir": "./dist"
   },
-  "include": ["src/**/*.ts"]
 }
 ```
 
