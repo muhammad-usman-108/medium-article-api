@@ -10,7 +10,6 @@ NPM package for Medium Articles APIs.
 - [Usage](#usage)
 - [Scripts](#scripts)
 - [Configuration](#configuration)
-- [Testing](#testing)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -34,11 +33,29 @@ Here is a simple example to get you started:
 import { MediumArticles } from 'medium-article-api';
 
 const mediumArticles = MediumArticles();
-const username = '<you-medium-username>';
+const username = '<your-medium-username>';
 
-const profileURL = await mediumArticles.getProfileUrl(username); // will print profile url for given username
+const profileURL = await mediumArticles.getProfileUrl(username); // example: https://medium.com/feed/@engrmuhammadusman108
 
 ```
+
+### Functions
+
+
+| Function | Arguments | Output |
+|---------|---------| ---------|
+| getData| _username_: string | string | 
+| getProfileUrl| _username_: string| string |
+| getProfileTitle| _username_: string| string |
+| getProfileAuthor| _username_: string| string |
+| getProfileDescription| _username_: string| string |
+| getProfileImageUrl| _username_: string| string |
+| getLatestArticleTitle| _username_: string| array[string]|
+| getLatestArticlePublicationDate| _username_: string| string |
+| getLatestArticleUrl| _username_: string| string |
+| getLatestArticleDescription| _username_: string| html |
+| getLatestArticle| _username_: string| object |
+| getLatestArticlesTitle| _username_: string| string |
 
 ## Scripts
 
