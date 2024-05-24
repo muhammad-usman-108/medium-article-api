@@ -29,13 +29,13 @@ You can install this package using npm or yarn.
 
 Here is a simple example to get you started:
 
-```
+```typescript
 import { MediumArticles } from 'medium-article-api';
 
 const mediumArticles = MediumArticles();
 const username = '<your-medium-username>';
 
-const profileURL = await mediumArticles.getProfileUrl(username); // example: https://medium.com/feed/@engrmuhammadusman108
+const profileURL = await mediumArticles.getProfileUrl(username); // https://medium.com/feed/@engrmuhammadusman108}
 
 ```
 
