@@ -1,4 +1,3 @@
-// const MediumArticles = require('./index.js');
 import { MediumArticles } from './index';
 
 const mediumArticles = MediumArticles();

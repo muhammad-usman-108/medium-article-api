@@ -1,12 +1,16 @@
-// sample URL : https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@engrmuhammadusman108
-
 export const MediumArticles = () => {
+ // sample URL : https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@engrmuhammadusman108
+    const URL = 'https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/';
+
     const error = {
         "message" : "Invalid username..."
     }
 
     const getBaseURL = (username:string) => {
-        return `https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@${username}`;
+        if (username.trim().charAt(0) === '@'){
+            username = username.substring(1);
+        } 
+        return `${URL}@${username}`;
     };
 
     const getData = async (username:string) => {
