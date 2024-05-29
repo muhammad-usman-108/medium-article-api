@@ -1,6 +1,6 @@
 {
   "name": "medium-article-api",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "NPM package for using medium articles api",
   "main": "dist/index.js",
   "scripts": {
@@ -28,5 +28,8 @@
   "devDependencies": {
     "@types/node": "^20.12.12",
     "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "medium-article-api": "^1.0.1"
   }
 }

@@ -1,8 +1,9 @@
 # Medium Article APIs
 
-[![npm version](https://badge.fury.io/js/my-typescript-package.svg)](https://badge.fury.io/js/my-typescript-package)
+[![npm version](https://badge.fury.io/js/my-typescript-package.svg)](https://badge.fury.io/js/my-typescript-package) [![created by](https://img.shields.io/badge/created%20by-M.%20Usman%20&%20Misbah%20A.-blue.svg?longCache=true&style=flat-square)](https://github.com/muhammad-usman-108) [![star](https://img.shields.io/github/stars/muhammad-usman-108/medium-article-api.svg?style=flat-square)](https://github.com/muhammad-usman-108/medium-article-api/stargazers) ![size](https://img.shields.io/github/size/warengonzaga/buymeacoffee.js/dist/main.js?color=green&style=flat-square) ![npm downloads](https://img.shields.io/npm/d18m/medium-article-api.svg?color=red&style=flat-square) [![license](https://img.shields.io/github/license/muhammad-usman-108/medium-article-api.svg?style=flat-square)](https://github.com/muhammad-usman-108/medium-article-api.js/blob/main/LICENSE)
 
-NPM package for Medium Articles APIs.
+
+A npm package designed to fetch user details and articles from Medium. This package provides a simple and efficient way to easily integrate Medium content into their applications.
 
 ## Table of Contents
 
@@ -30,17 +31,18 @@ You can install this package using npm or yarn.
 Here is a simple example to get you started:
 
 ```typescript
+
 import { MediumArticles } from 'medium-article-api';
 
 const mediumArticles = MediumArticles();
 const username = '<your-medium-username>';
 
-const profileURL = await mediumArticles.getProfileUrl(username); // https://medium.com/feed/@engrmuhammadusman108}
+mediumArticles.getProfileUrl(username).then( (result) => console.log('The profile url is ', result)); 
+// https://medium.com/feed/@engrmuhammadusman108}
 
 ```
 
 ### Functions
-
 
 | Function | Arguments | Output |
 |---------|---------| ---------|
@@ -95,6 +97,10 @@ This package uses a `tsconfig.json` file for TypeScript configuration. Here is a
 
 - [Misbah Afzal](https://github.com/misbahafzal)
 - [Muhammad Usman](https://github.com/muhammad-usman-108)
+
+## Support
+
+<p><a href="https://buymeacoffee.com/engrmuhammk"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="engrmuhammk" /></a></p><br><br> 
 
 ## LICENSE
 
